@@ -1,7 +1,4 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-
-const { stringify } = require("querystring")
-
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 
@@ -62,19 +59,67 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 //${renderLicenseBadge(data.license)} 
 function generateMarkdown(data) {
-    return `## ${data.title} 
-  
-  ${renderLicenseBadge(data.license)}
-       
-   
+    return ` ${renderLicenseBadge(data.license)}
 
-  ${renderLicenseSection(data.license, renderLicenseBadge(data.license))} 
+## ${data.title} 
+
+-----------------------------------------
+
+## Table of Contents
+
+* [Description](#description)
+* [Installaion Instrusctions](#instalation-instructions)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [Video](#video)
+
+-----------------------------------------
+
+## Description
+${data.description}
+
+-----------------------------------------
+
+## Installation Instructions
+${data.installation}
+
+-----------------------------------------
+
+## Usage
+${data.usage}
+
+-----------------------------------------
+    
+${renderLicenseSection(data.license, renderLicenseBadge(data.license))} 
+
+-----------------------------------------
+
+## Contributing
+${data.contribute}
+
+-----------------------------------------
+
+## Tests
+${data.tests}
+
+-----------------------------------------
+
+## Video
+[Video Link](${data.video})
+
+## Questions
+If you have any questions plese dont hessitate to email me here
+${data.email}
+OR follow me on GitHub
+${renderGitHubLink(data.gitAccount)}
+
+-----------------------------------------
 
 
-  ${renderGitHubLink(data.gitAccount)}
-  
-  
-        
+    
 
 `;
 }
