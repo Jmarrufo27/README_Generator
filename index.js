@@ -49,7 +49,7 @@ const questions = [
         },
         {
             type: 'input',
-            message: 'Add a link to the video of your app heare',
+            message: 'Add a link to the video of your app here',
             name: 'video'
         },
         {

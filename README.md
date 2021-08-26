@@ -1,4 +1,4 @@
- [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## README Generator 3000 
 
@@ -32,7 +32,7 @@ This app is to quickly and professionally create a README.md file for a project 
 
 -----------------------------------------
     
-License This project is covered by [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0).
+License This project is covered by [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
      Click on the badge to see the license information 
 
 -----------------------------------------
@@ -48,7 +48,7 @@ Zero Tests
 -----------------------------------------
 
 ## Video
-[Video Link]()
+[Video Link](https://drive.google.com/file/d/1gRZSbmEh2e5a76ClH10487H9u6IcoUt1/view)
 
 ## Questions
 If you have any questions plese dont hessitate to email me here
